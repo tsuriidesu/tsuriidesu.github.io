@@ -504,11 +504,6 @@ a:focus {
     margin: -45px 0 45px 0;
 }
 
-.discord {
-    position: relative;
-    width: 100%;
-    margin: 45px 0 0 0;
-}
 
 .about .col-lg-6 {
     padding: 0;
@@ -528,6 +523,16 @@ a:focus {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+@media (max-width: 991.98px) {
+.about .about-img {
+    display: none;
+}
+
+.about .about-img img {
+    display: none;
+}
 }
 
 .about .about-content {
